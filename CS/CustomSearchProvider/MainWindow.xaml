@@ -1,0 +1,19 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CustomSearchProvider"
+        xmlns:dxm="http://schemas.devexpress.com/winfx/2008/xaml/map" 
+        x:Class="CustomSearchProvider.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="503" Width="521">
+    <Grid>
+        <dxm:MapControl x:Name="mapControl">
+            <dxm:ImageLayer>
+                <dxm:OpenStreetMapDataProvider/>
+            </dxm:ImageLayer>
+            <dxm:InformationLayer x:Name="infoLayer"/>
+        </dxm:MapControl>
+    </Grid>
+</Window>
