@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/CustomSearchProvider/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CustomSearchProvider/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/CustomSearchProvider/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/CustomSearchProvider/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/CustomSearchProvider/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/CustomSearchProvider/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to: Implement a Custom Search Provider
 
